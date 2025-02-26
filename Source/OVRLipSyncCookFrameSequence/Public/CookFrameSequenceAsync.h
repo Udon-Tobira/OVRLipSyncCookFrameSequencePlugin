@@ -14,7 +14,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FFrameSequenceCoocked, UOVRLipSyncF
  * 
  */
 UCLASS()
-class OVRLIPSYNC_API UCookFrameSequenceAsync : public UBlueprintAsyncActionBase
+class OVRLIPSYNCCOOKFRAMESEQUENCE_API UCookFrameSequenceAsync : public UBlueprintAsyncActionBase
 {
 	GENERATED_BODY()
 	

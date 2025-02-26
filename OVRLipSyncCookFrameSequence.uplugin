@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OVRLipSyncCookFrameSequence",
+	"Description": "async node to create ovr frame sequences during runtime",
+	"Category": "Other",
+	"CreatedBy": "Udon-Tobira",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "OVRLipSyncCookFrameSequence",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OVRLipSync",
+			"Enabled": true
+		}
+	]
+}
